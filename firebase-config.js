@@ -1,9 +1,10 @@
+// Configuración opcional para conectar con Firebase (no funcional sin proyecto real)
 const firebaseConfig = {
-    apiKey: "AIzaSyXXXXXXX",
-    authDomain: "sebasbl-panel.firebaseapp.com",
-    projectId: "sebasbl-panel",
-    storageBucket: "sebasbl-panel.appspot.com",
-    messagingSenderId: "XXXXXXXXXXXX",
-    appId: "1:XXXXXXXXXXXX:web:XXXXXXXXXXXX",
-    measurementId: "G-XXXXXXXXXX"
+  apiKey: "TU_API_KEY",
+  authDomain: "sebasbl-panel.firebaseapp.com",
+  projectId: "sebasbl-panel",
+  storageBucket: "sebasbl-panel.appspot.com",
+  messagingSenderId: "000000000000",
+  appId: "1:000000000000:web:xxxxxxxxxxxxxxxx",
+  measurementId: "G-XXXXXXX"
 };
