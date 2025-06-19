@@ -1,0 +1,1 @@
+// Simulación de archivo: README.txt - Proyecto SebasBL actualizado

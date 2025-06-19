@@ -1,26 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Cache-Control" content="no-store" />
-  <title>SEBAS_BL | Crecimiento Digital</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>🚀 Bienvenido a SEBAS_BL</h1>
-    <p>Impulsa tu presencia digital con servicios de alto impacto.</p>
-    <div class="social-buttons">
-      <a href="https://wa.me/573125085660" target="_blank">WhatsApp</a>
-      <a href="https://t.me/SEBAS_BL" target="_blank">Telegram</a>
-      <a href="https://instagram.com/sebas_bl15" target="_blank">Instagram</a>
-    </div>
-    <a class="admin-access" href="admin.html">Admin</a>
-  </header>
-  <main id="catalogo">
-    <!-- Aquí se cargan los servicios dinámicamente -->
-  </main>
-</body>
-<script src="script.js"></script>
-</html>
+// Simulación de archivo: index.html - Proyecto SebasBL actualizado
+<div id="notificacion" style="display:none; position:fixed; top:20px; right:20px; background:#4CAF50; color:white; padding:15px; border-radius:10px; box-shadow: 0 0 15px rgba(0,0,0,0.3); z-index:9999; font-size:16px; transition: opacity 0.5s ease;">
+  ✅ ¡Cambios guardados correctamente!
+</div>
+
+<script>
+  function mostrarNotificacion() {
+    const noti = document.getElementById('notificacion');
+    noti.style.display = 'block';
+    noti.style.opacity = '1';
+    setTimeout(() => {
+      noti.style.opacity = '0';
+      setTimeout(() => noti.style.display = 'none', 500);
+    }, 3000);
+  }
+
+  // Simulación de evento de guardado
+  function guardarCambios() {
+    // Aquí iría tu lógica de guardado...
+    mostrarNotificacion();
+  }
+</script>
