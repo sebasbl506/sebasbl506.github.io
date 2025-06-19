@@ -1,0 +1,1 @@
+// Funcionalidades dinámicas: catálogo, login, stats, etc.
