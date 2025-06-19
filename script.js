@@ -1,1 +1,1 @@
-// Funcionalidades dinámicas: catálogo, login, stats, etc.
+console.log("Script cargado correctamente.");

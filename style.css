@@ -1,1 +1,11 @@
-/* Estilo visual tipo GOD empresarial */
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #00ffcc;
+}
+a {
+    color: #ff0080;
+}
